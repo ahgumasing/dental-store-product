@@ -5,7 +5,8 @@
         {{ 'tailwind.output.css' | asset_url | stylesheet_tag }}
     </head>
 
-    <body>
+    <body class="max-w-7xl mx-auto">
+        {%  section 'header' %}
         {{  content_for_layout }}
     </body>
 </html>
