@@ -1,1 +1,1 @@
-# shopify-tailwind-boiler-plate
+# dental-store-product
